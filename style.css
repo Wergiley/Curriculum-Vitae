@@ -58,9 +58,17 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    text-align: center;
+    padding-top: 20px;
     color: #eeeeee;
     font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.right-title {
+    text-transform: uppercase;
+    color: yellow;
+    font-weight: 100;
 }
 
 .contact-info ul {
@@ -92,14 +100,14 @@
     padding: 2rem 2rem;
 }
 
-.right-title {
-    color: #eeeeee;
-}
-
 .gap {
     padding-bottom: 2rem;
 }
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.about-me-contents span {
+   font-weight: bolder;
 }
