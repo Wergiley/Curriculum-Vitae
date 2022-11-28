@@ -6,18 +6,25 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background: #224056;
+}
+
 .resume {
     min-height: 100vh;
     width: 80%;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .7);
+    border-radius: 0px 60px 0px 0px;
 }
 
 .section-left {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #242424;
+    border-radius: 60px 0px 0px 0px;
 }
 
 .section-right {
@@ -46,11 +53,14 @@
     color: #D6DBDF;
     font-size: 25px;
     letter-spacing: 2px;
+    padding: 10px;
+    
     text-transform: uppercase;
 }
 
 .profession {
-    color: #eeeeee;
+    color: #d5b31c;
+    font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -58,7 +68,7 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #d5b31c;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 100;
@@ -66,9 +76,8 @@
 
 .right-title {
     text-transform: uppercase;
-    color: yellow;
-    font-weight: 100;
-    font-size: 30px;
+    color: #d5b31c;
+    font-size: 36px;
 }
 
 .contact-info ul {
@@ -126,6 +135,7 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+    color: #fefefe;
 }
 
 .exp-time-period,
@@ -138,6 +148,7 @@
 .education-subject,
 .awards-name {
     font-size: 25px;
+    color: white;
 }
 
 .exp-desc,
@@ -145,4 +156,15 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
+}
+
+/*icones*/
+
+li {
+   
+}
+
+.icons {
+    width: 30px;
+    padding-right: 10px;
 }
