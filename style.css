@@ -109,12 +109,12 @@ body {
     padding-bottom: 2rem;
 }
 .about-me-contents {
-    font-size: 18px;
+    font-size: 16px;
     color: #eeeeee;
 }
 
-.about-me-contents span {
-   font-weight: 100;
+span {
+   font-weight: bolder;
 }
 
 .experience-contents,
@@ -123,7 +123,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 4rem;
-    color: #F1F8FD;
+    color: #fefefe;
 }
 
 .exp-company-name,
@@ -131,13 +131,6 @@ body {
 .awards-company-name {
     font-size: 18px;
     font-weight: bold;
-    color: #fefefe;
-}
-
-.exp-time-period,
-.educationp-time-period,
-.awards-time-period {
-    font-size: 12px;
     padding-top: 5px;
 }
 
@@ -145,13 +138,19 @@ body {
 .education-subject,
 .awards-name {
     font-size: 18px;
-    color: white;
+    padding-top: 5px;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 14px;
     padding-top: 5px;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 5px;
 }
