@@ -50,17 +50,17 @@ body {
 .name {
     text-align: center;
     color: #D6DBDF;
-    font-size: 25px;
+    font-size: 18px;
     letter-spacing: 2px;
     padding: 10px;
-    
     text-transform: uppercase;
+    font-weight: 100;
 }
 
 .profession {
     color: #d5b31c;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -136,7 +136,6 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #fefefe;
-    padding-top: 1rem;
 }
 
 .exp-time-period,
@@ -148,7 +147,7 @@ body {
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
