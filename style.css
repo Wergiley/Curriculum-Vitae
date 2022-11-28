@@ -54,14 +54,12 @@ body {
     letter-spacing: 2px;
     padding: 10px;
     text-transform: uppercase;
-    font-weight: 100;
 }
 
 .profession {
     color: #d5b31c;
     font-weight: bold;
     font-size: 18px;
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -92,8 +90,6 @@ body {
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
-    font-size: 18px;
-    color: #eeeeee;
 }
 
 .skills ul {
@@ -117,7 +113,7 @@ body {
 }
 
 .about-me-contents span {
-   font-weight: bolder;
+   font-weight: 100;
 }
 
 .experience-contents,
@@ -132,7 +128,7 @@ body {
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #fefefe;
 }
@@ -140,7 +136,8 @@ body {
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-size: 12px;
+    padding-top: 5px;
 }
 
 .exp-position,
@@ -148,19 +145,12 @@ body {
 .awards-name {
     font-size: 18px;
     color: white;
+    padding-top: 5px;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 12px;
-    padding-left: 5px;
-}
-
-/*icones*/
-
-.icons {
-    width: 30px;
-    height: 20px;
-    padding-right: 10px;
+    padding-top: 5px;
 }
