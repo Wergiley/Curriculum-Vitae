@@ -51,7 +51,7 @@ body {
     text-align: center;
     color: #D6DBDF;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 10px;
     text-transform: uppercase;
 }
@@ -59,8 +59,9 @@ body {
 .profession {
     color: #d5b31c;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .left-title {
