@@ -24,7 +24,6 @@ body {
     grid-column: span 2;
     height: 100%;
     background-color: #3d474f;
-    border-radius: 60px 0px 0px 0px;
 }
 
 .section-right {
@@ -78,7 +77,7 @@ body {
 .right-title {
     text-transform: uppercase;
     color: #d5b31c;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .contact-info ul {
@@ -94,7 +93,7 @@ body {
 .contact-info ul li,
 .references ul li {
     padding-right: 1rem;
-    font-size: 24px;
+    font-size: 18px;
     color: #eeeeee;
 }
 
@@ -134,7 +133,7 @@ body {
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
     color: #fefefe;
     padding-top: 1rem;
@@ -156,14 +155,14 @@ body {
 .exp-desc,
 .education-desc,
 .awards-desc {
-    font-size: 16px;
+    font-size: 12px;
     padding-left: 5px;
 }
 
 /*icones*/
 
 .icons {
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     padding-right: 10px;
 }
