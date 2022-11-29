@@ -39,7 +39,7 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 1px solid white;
 }
 
 .profile .profile-image {
@@ -158,6 +158,7 @@ body {
     letter-spacing: 1px;
     line-height: 2rem;
     color: #c8cfd5;
+    padding-bottom: .8rem;
 }
 
 .aspas {
@@ -263,31 +264,31 @@ body {
 }
 
 @media screen and (max-width:1200px) {
-    .resume-contents {
+    .resume {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media screen and (max-width:390px) {
-    .resume-contents {
+    .resume {
         width: 100%;
         margin: 0 auto;
     }
 
     .name {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .profession {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .left-title {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .right-title {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .contact-info ul li,
@@ -306,26 +307,26 @@ body {
     }
 
     .about-me-contents {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5rem;
     }
 
     .exp-company-name,
     .education-school-name,
     .awards-company-name {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .exp-time-period,
     .educationp-time-period,
     .awards-time-period {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .exp-position,
     .education-subject,
     .awards-name {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
